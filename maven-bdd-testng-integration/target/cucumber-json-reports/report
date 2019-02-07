@@ -1,0 +1,122 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4410819799,
+              "status": "passed"
+            },
+            "match": {
+              "location": "InvokeBrowser.setUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "phptravel.com home page scenarion",
+        "description": "",
+        "id": "phptravel.com-home-page-features-test;phptravel.com-home-page-scenarion",
+        "after": [
+          {
+            "result": {
+              "duration": 24165,
+              "status": "passed"
+            },
+            "match": {
+              "location": "InvokeBrowser.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3976853553,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "users should be already in the home page",
+            "match": {
+              "location": "HomePageStepDif.users_should_be_already_in_the_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1034712875,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "users click on Demo page",
+            "match": {
+              "location": "HomePageStepDif.users_click_on_Demo_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1119142922,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "users click on Pricing page",
+            "match": {
+              "location": "HomePageStepDif.users_click_on_Pricing_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 196989096,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "users mouse over Features page",
+            "match": {
+              "location": "HomePageStepDif.users_mouse_over_Features_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1130231710,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "users click on Hotels Module page",
+            "match": {
+              "location": "HomePageStepDif.users_click_on_Hotels_Module_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1472915575,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user close the browser",
+            "match": {
+              "location": "HomePageStepDif.user_close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@invokeBrowser"
+          }
+        ]
+      }
+    ],
+    "name": "phptravel.com home page features test",
+    "description": "",
+    "id": "phptravel.com-home-page-features-test",
+    "keyword": "Feature",
+    "uri": "C:/Users/Seraj Islam/workspace/maven-bdd-testng-integration/src/main/java/Features/homepage.feature"
+  }
+]
